@@ -132,7 +132,7 @@ message TsoResponse {
     uint32 count = 2;
     Timestamp timestamp = 3;
     // Current CPU usage of the PD server, used to adjust the TSO batch size.
-    uint32 cpu_usage = 4;
+    float cpu_usage = 4;
 }
 
 message BootstrapRequest {
