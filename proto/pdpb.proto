@@ -899,4 +899,6 @@ message Consumption {
   uint64 write_requests = 4;
   uint64 write_bytes = 5;
   double pods_cpu_seconds = 6;
+  uint64 kv_read_cpu_milliseconds = 7;
+  uint64 kv_write_cpu_milliseconds = 8;
 }
