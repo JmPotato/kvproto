@@ -173,6 +173,7 @@ message Consumption {
   double kv_write_rpc_count = 8;
   uint64 read_cross_az_traffic_bytes = 9;
   uint64 write_cross_az_traffic_bytes = 10;
+  double wait_r_u = 11;
 }
 
 message RequestUnitItem {
